@@ -1,2 +1,4 @@
-# vehiclesearch
-WIP
+# vehiclesearch [WIP]
+
+##Usage
+Python scrape.py
