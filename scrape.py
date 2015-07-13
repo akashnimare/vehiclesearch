@@ -23,7 +23,7 @@ for row in table.findAll('tr',{'class':'GridItem'}):
 		json.dump({'Model':a, 
 				   'Owner Name':b, 
 				   'RTO NAME':c, 
-				   'Regis Date':d
+				   'Regi. Date':d
 				   }, outfile, indent=4)
 	
     
