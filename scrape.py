@@ -30,6 +30,14 @@ def not_found(error=None):
 #     return resp
 
 
+
+@app.route('/')
+def api_root():
+    return 'Welcome'
+	
+
+
+
 @app.route('/num/<registrationnum>')
 def api_article(registrationnum):
 	url = "http://mis.mptransport.org/MPLogin/eSewa/VehicleSearch.aspx"
