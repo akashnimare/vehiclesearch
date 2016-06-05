@@ -1,13 +1,14 @@
 # MP Vehiclesearch API
 
 ##Usage
-Python scrape.py
+<code>pip install -r requirements.txt</code><br>
+<code>Python scrape.py </code>
 
-# API Usage
+## API Usage
 ### API Base URL: `http://localhost:5000/num/<registrationnum>`
 
 ## Endpoint
-* GET: [`/num/<registrationnum>`]
+ GET: [`/num/<registrationnum>`]
  
 #### Example
 Example usage: `GET http://localhost:5000/num/MP04A2300`
