@@ -5,7 +5,7 @@
 <code>Python scrape.py </code>
 
 ## API Usage
-### API Base URL: `http://localhost:5000/num/<registrationnum>`
+### API Base URL: `http://mprest.herokuapp.com/num/<registrationnum>`
 
 ## Endpoint
  GET: [`/num/<registrationnum>`]
