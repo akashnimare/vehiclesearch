@@ -11,7 +11,8 @@
  GET: [`/num/<registrationnum>`]
  
 #### Example
-Example usage: `GET http://mprest.herokuapp.com/num/MP04A2300`
+Example usage: `GET http://mprest.herokuapp.com/num/MP04A2300` <br>
+See the permalink version of the request [here](http://hurl.eu/hurls/02782022b80ea993baa491eb5be1129b37001d7b/c4353d68c932a726d92998d3c17fd8e280d61a18).
 
 Example result:
 ```json
@@ -23,3 +24,6 @@ Example result:
   "Registration num": "MP04A2300"
 }
 ```
+
+## TODO
+* Proper error handling.
