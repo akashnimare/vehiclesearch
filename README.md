@@ -11,7 +11,7 @@
  GET: [`/num/<registrationnum>`]
  
 #### Example
-Example usage: `GET http://localhost:5000/num/MP04A2300`
+Example usage: `GET http://mprest.herokuapp.com/num/MP04A2300`
 
 Example result:
 ```json
