@@ -73,11 +73,11 @@ def api_article(registrationnum):
 		d=col[6].string
 		e=col[8].string
 		data = {
-		   'Registration num': a,
-            'Model': b,
-            'Owner Name': c,
-            'RTO NAME': d,
-            'Regis Date':e
+	    'registration_num': a,
+            'model': b,
+            'owner_name': c,
+            'rto_name': d,
+            'regis_date':e
     		}
     	response = jsonify(data)
     	return response
